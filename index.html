@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <h1>Pixel Painter</h1>
+    <h2>Description</h2>
+    <p>
+      You will be created a simple ‘Paint’ app. You will render a grid of 10x10
+      ‘large pixels’, which can be individual filled with color to create simple
+      images. You should focus on the architecture: storing and passing
+      information cleanly between components. In addition, you should watch out
+      for performance, e.g. if you increase the grid size (i.e. the number of
+      pixels) too large, you might even break CodeSandbox, so be careful as you
+      develop.
+    </p>
+    <h2>Features</h2>
+    <ol>
+      <li>
+        Create a 10x10 grid of pixels, and an input color field that will
+        contain a color in hex (e.g ‘#ff0000’). Upon clicking on a pixel, it
+        should be filled with the current color.
+      </li>
+      <li>
+        Each ‘pixel’ should quite large on the page (e.g. 50px by 50px) and have
+        a border, so you can tell it apart.
+      </li>
+      <li>
+        Clicking on a previously filled pixel should replace the pixel’s color
+        with the current color.
+      </li>
+      <li>
+        You do not need to use Material UI for this, and can use your own CSS or
+        styles as you see fit.
+      </li>
+      <li>
+        BONUS: Clicking and holding, should fill all the pixels you mouse over
+        until releasing the mouse.
+      </li>
+      <li>
+        BONUS: Toggle the borders on pixels on/off (on for helping to creating
+        an image, and off to see the result
+      </li>
+      <li>
+        BONUS: Add a way to vary the number of pixels, or the actual px size of
+        a pixel.
+      </li>
+    </ol>
+    <img
+      src="https://codaio.imgix.net/docs/CCsAkrAoaJ/blobs/bl-4GGHW0RxjV/61b51ee71743e271b47831f6552853a1393eadf584bb66b0288cba975fb42dbd03de566660d247ecd4ac12a48886200fc53be1267aeedca02b888c73e67bff96e0ee543997f90d009319d47a43fd94d267a344ae6f0004e71f67251b63101e97bdf9c847?auto=format%2Ccompress&fit=max"
+      width="300"
+    />
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
